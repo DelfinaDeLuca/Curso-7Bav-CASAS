@@ -1,30 +1,20 @@
 import java.util.Scanner;
 
-public class PuestoTorneo {
+public class SistemaCursos {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
-        System.out.print("Ingrese el puesto obtenido (0-12): ");
-        int puesto = scanner.nextInt();
+        System.out.print("Ingrese el número de curso: ");
+        int curso = scanner.nextInt();
 
-        String categoria;
-
-        if (puesto == 0) {
-            categoria = "jardín de infantes";
+        if (curso == 0) {
+            System.out.println("Jardín de infantes");
+        } else if (curso == 1 || curso == 6) {
+            System.out.println("Primaria");
+        } else if (curso >= 7 && curso <= 12) {
+            System.out.println("Secundaria");
         } else {
-            if (puesto >= 1 && puesto <= 6) {
-                categoria = "primaria";
-            } else {
-                if (puesto >= 7 && puesto <= 12) {
-                    categoria = "secundaria";
-                } else {
-                    categoria = "desconocido";
-                }
-            }
+            System.out.println("Curso no válido");
         }
-
-        System.out.println("El puesto " + puesto + " corresponde a la categoría " + categoria + ".");
-
-        scanner.close();
     }
 }
