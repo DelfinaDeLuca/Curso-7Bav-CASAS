@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class RelacionFamiliar {
+public class Ej4Java {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
