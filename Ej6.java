@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SistemaCursos {
+public class Ej6Java {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
