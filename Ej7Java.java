@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class MayorDeTres {
+public class Ej7Java {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
