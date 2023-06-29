@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class PuestosTorneo {
+public class Ej5Java {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
