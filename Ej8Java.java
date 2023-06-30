@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej8Java {
+public class JuegoPiedraPapelTijera {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

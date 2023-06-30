@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej14Java {
+public class MostrarPalabra {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 

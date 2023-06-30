@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Ej16Java {
+public class TablaMultiplicar {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
