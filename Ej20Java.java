@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class NumerosAlAzar {
+public class Ej20Java {
     public static void main(String[] args) {
         Random random = new Random();
         int contador = 0;
@@ -9,7 +9,7 @@ public class NumerosAlAzar {
 
         do {
             int numero = random.nextInt(100); // Genera un número aleatorio entre 0 y 99
-            System.out.println("Número generado: " + numero);
+            System.out.println("Número aleatorio: " + numero);
 
             if (numero > maximo) {
                 maximo = numero;
@@ -22,7 +22,7 @@ public class NumerosAlAzar {
             contador++;
         } while (contador < 10);
 
-        System.out.println("Máximo: " + maximo);
-        System.out.println("Mínimo: " + minimo);
+        System.out.println("Máximo número: " + maximo);
+        System.out.println("Mínimo número: " + minimo);
     }
 }
