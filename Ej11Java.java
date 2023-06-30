@@ -1,7 +1,7 @@
 
 import java.util.Scanner;
 
-public class VerificarVocal {
+public class Ej11Java {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
