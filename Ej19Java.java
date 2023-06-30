@@ -1,6 +1,6 @@
 import java.util.Random;
 
-public class NumerosAleatorios {
+public class Ej19Java {
     public static void main(String[] args) {
         Random random = new Random();
         int contador = 0;
